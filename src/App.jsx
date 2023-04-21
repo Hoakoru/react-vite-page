@@ -16,10 +16,10 @@ function App() {
       <NavBar />
       <Container>
         <Routes>
-          <Route path="/" element={<Inicio />} />
-          <Route path="/d-men" element={<DesigualdadHombre />} />
-          <Route path="/d-women" element={<DesigualdadMujer />} />
-          <Route path="/recommendations" element={<Helper />} />
+          <Route path="" element={<Inicio />} />
+          <Route path="d-men" element={<DesigualdadHombre />} />
+          <Route path="d-women" element={<DesigualdadMujer />} />
+          <Route path="recommendations" element={<Helper />} />
         </Routes>
       </Container>
       <Row className="pt-5">
