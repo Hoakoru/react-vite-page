@@ -1,0 +1,11 @@
+.cardFondo {
+  background: linear-gradient(to top, rgb(31, 31, 187) 70%, transparent 30%);
+  color: azure;
+}
+
+.imgTall {
+  height: 10em;
+  width: 10em;
+}
+
+
