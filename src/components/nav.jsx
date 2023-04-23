@@ -19,11 +19,9 @@ const NavBar = () => {
 
           <Navbar>
             <Navbar.Brand className="text-white text-uppercase">Innovatech Solutions</Navbar.Brand>
-            <Navbar.Brand>
-              
-              
+            <Navbar.Brand href="/">
+              <Image src={logo} className="logo" />
             </Navbar.Brand>
-            <Link to="/"><Image src={logo} className="logo" /></Link>
           </Navbar>
 
           <Navbar.Offcanvas
