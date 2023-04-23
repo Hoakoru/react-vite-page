@@ -12,7 +12,7 @@ import Row from "react-bootstrap/Row";
 
 function App() {
   return (
-    <BrowserRouter basename="hoakoru.github.io/react-vite-page/">
+    <BrowserRouter basename="/react-vite-page/">
       <NavBar />
       <Container>
         <Routes>
