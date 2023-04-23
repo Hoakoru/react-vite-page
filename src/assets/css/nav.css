@@ -9,6 +9,12 @@ nav {
   font-weight: bolder;
 }
 
+.navegadorColor{
+  color: aqua;
+  background-color: #201e99d5;
+  text-transform: uppercase;
+}
+
 .navegadorColor :hover {
   color: rgb(36, 101, 199);
 }
@@ -26,8 +32,3 @@ img {
   height: 100%;
 }
 
-.navCanvas {
-  color: aqua;
-  background-color: #201e99d5;
-  text-transform: uppercase;
-}
