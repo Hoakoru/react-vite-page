@@ -7,6 +7,7 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import logo from "../assets/img/icons/logo.png";
 import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
+import { Link } from "react-router-dom";
 
 
 const NavBar = () => {
@@ -18,8 +19,9 @@ const NavBar = () => {
 
           <Navbar>
             <Navbar.Brand className="text-white text-uppercase">Innovatech Solutions</Navbar.Brand>
-            <Navbar.Brand href="/">
-              <Image src={logo} className="logo" />
+            <Navbar.Brand>
+              
+              <Link to="/"><Image src={logo} className="logo" /></Link>
             </Navbar.Brand>
           </Navbar>
 
